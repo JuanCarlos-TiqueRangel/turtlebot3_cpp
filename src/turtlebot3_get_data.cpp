@@ -95,9 +95,6 @@ void turtlebot3_MPC::topic_imu(const sensor_msgs::msg::Imu::ConstSharedPtr imu)
 
 void turtlebot3_MPC::trajectory()
 {
-  //auto message = std_msgs::msg::Float32();
-  //message.data = yaw;
-
   // WAY POINTS
   wpx_1 = goalx(ini);
   wpy_1 = goaly(ini);
@@ -180,7 +177,7 @@ void turtlebot3_MPC::trajectory()
   uk_pid = simple_PID(error);
   uk_mpc = simple_MPC(w_velocity, yaw, angle_to_goal);
 
-  printf("mpc: %f\n", uk_mpc);
+  //printf("mpc: %f\n", uk_mpc);
   //printf("pid: %f\n", uk_pid);
   //printf("\n");
 
