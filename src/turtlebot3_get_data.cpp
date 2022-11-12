@@ -196,8 +196,8 @@ void turtlebot3_MPC::trajectory()
   }
   else
   {
-    msg.linear.x = 0.0;
-    msg.angular.z = uk_pid;
+    msg.linear.x = 0.3;
+    msg.angular.z = uk_mpc;
   }
   publisher_->publish(msg);
 
