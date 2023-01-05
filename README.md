@@ -2,5 +2,5 @@
 
 In this repository you can see a single MPC controller without constraints using ros2 and C++
 
-##Future Work 
+## Future Work 
 constraints and MIMO controller will be add.
