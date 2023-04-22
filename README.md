@@ -15,7 +15,7 @@ This header file contains a class called turtlebot3_MPC that implements a simple
 1. Clone the repository to your ROS2 workspace:
     ```
     cd ~/your_ros2_ws/src`
-    git clone https://github.com/xGonZh10n/turtlebot3_cpp.git
+    git clone https://github.com/JuanCarlos-TiqueRangel/turtlebot3_cpp.git
     ```
 2. Build the package:
     ```
