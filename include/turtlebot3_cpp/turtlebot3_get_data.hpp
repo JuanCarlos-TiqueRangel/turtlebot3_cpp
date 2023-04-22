@@ -1,22 +1,9 @@
-// Copyright 2020 xGonZh10n.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-//     http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
+// PROJECT DEVELOPED BY JUAN CARLOS TIQUE RANGEL
 
 #ifndef TURTLEBOT3_CPP__TURTLEBOT3_GET_DATA_HPP_
 #define TURTLEBOT3_CPP__TURTLEBOT3_GET_DATA_HPP_
 
 #include <memory>
-
 #include <eigen3/Eigen/Core>
 #include <eigen3/Eigen/Geometry>
 #include <iostream>
@@ -29,7 +16,6 @@
 
 #include <nav_msgs/msg/odometry.hpp>
 #include <sensor_msgs/msg/imu.hpp>
-
 
 using namespace std::chrono_literals;
 
@@ -70,7 +56,6 @@ class turtlebot3_MPC : public rclcpp::Node
       xk(2,0) = yaw;
 
       w_velocity_1 = w;
-
       return uk;
     }
 

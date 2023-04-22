@@ -171,9 +171,7 @@ void turtlebot3_MPC::trajectory()
     error = error1;
   }
 
-
   // ========================== CONTROLLER =================================
-
   uk_pid = simple_PID(error);
   uk_mpc = simple_MPC(w_velocity, yaw, angle_to_goal);
 
@@ -200,5 +198,4 @@ void turtlebot3_MPC::trajectory()
     msg.angular.z = uk_mpc;
   }
   publisher_->publish(msg);
-
 }

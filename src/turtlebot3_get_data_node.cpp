@@ -6,6 +6,5 @@ int main(int argc, char * argv[])
   auto node = std::make_shared<turtlebot3_MPC>();
   rclcpp::spin(node);
   rclcpp::shutdown();
-
   return 0;
 }
