@@ -26,30 +26,6 @@ This header file contains a class called turtlebot3_MPC that implements a simple
 # Member Functions
 The turtlebot3_MPC class has the following member functions:
 
-### turtlebot3_MPC()
-Constructor of the turtlebot3_MPC class.
-
-### double get_pos_x()
-Returns the current x-coordinate position of the robot.
-
-### double get_pos_y()
-Returns the current y-coordinate position of the robot.
-
-### double get_x_linear_speed()
-Returns the current linear velocity of the robot in the x direction.
-
-### double get_y_linear_speed()
-Returns the current linear velocity of the robot in the y direction.
-
-### double get_z_linear_speed()
-Returns the current linear velocity of the robot in the z direction.
-
-### double get_w_velocity()
-Returns the current angular velocity of the robot.
-
-### double get_yaw()
-Returns the current orientation of the robot in radians.
-
 ### double simple_MPC(double w, double yaw, double ref)
 * A simple model predictive control (MPC) function that controls the robot's movement.
 * Takes three arguments:
