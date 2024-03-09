@@ -56,7 +56,7 @@ Returns the current orientation of the robot in radians.
     * w - Desired angular velocity of the robot.
     * yaw - Current orientation of the robot in radians.
     * ref - Desired orientation of the robot in radians.
-* Returns the control action uk_mpc.
+* Returns the control action uk_mpc. This control tecnique comes from the MPC strategy from Predictive Control With Constraints: MacIejowski book. Also there is a related paper of a real implementation in a skid-steering robot [here](https://ieeexplore.ieee.org/abstract/document/9633291).
 
 ### double simple_PID(double error)
 * A simple proportional-integral-derivative (PID) function that controls the robot's movement.
