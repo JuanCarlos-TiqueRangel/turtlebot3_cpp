@@ -49,6 +49,10 @@ constraints and MIMO controller will be add.
 * This file assumes that the robot is using ROS2 as the middleware.
 * This file has been tested with the TurtleBot3 robot platform.
 
+### Related Paper
+
+The article: [MBPC controller for UGV Trajectory Tracking](https://ieeexplore.ieee.org/abstract/document/9633291)
+
 If you found this work usefull and help in your research, please cite our work, Thank you!
 
 ```tex
