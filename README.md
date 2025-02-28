@@ -43,9 +43,23 @@ The turtlebot3_MPC class has the following member functions:
 # Future Work 
 constraints and MIMO controller will be add.
 
+
+
 # Notes
 * This file assumes that the robot is using ROS2 as the middleware.
 * This file has been tested with the TurtleBot3 robot platform.
+
+If you found this work usefull and help in your research, please cite our work, Thank you!
+
+```tex
+@INPROCEEDINGS{9633291,
+  author={Barrero, Oscar and Tique, Juan C.},
+  booktitle={2021 IEEE 5th Colombian Conference on Automatic Control (CCAC)}, 
+  title={MBPC controller for UGV Trajectory Tracking}, 
+  year={2021},
+  pages={314-319},
+  doi={10.1109/CCAC51819.2021.9633291}}
+```
 
 ## License
 This code is released under the MIT License. Feel free to modify and use it in your own projects.
